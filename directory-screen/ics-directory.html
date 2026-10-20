@@ -1,0 +1,237 @@
+<head>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="import" href="navigation.html" />
+  <link href="assets/magnific-popup.css" rel="stylesheet" />
+  <script src="assets/jquery.min.js"></script>
+  <script src="assets/magnific-popup.js"></script>
+  <script src="assets/timeout.js"></script>
+  <script src="assets/popup.js"></script>
+</head>
+
+<body>
+  <div id="internal-page">
+    <div id="orange-bar"></div>
+
+    <a href="/directory-screen/index.html">
+      <div class="home-cir">
+        <p><span>Return to</span><br />Main Menu</p>
+      </div>
+    </a>
+
+    <div class="background-cover">
+      <h2 class="directory-lead">Kao Innovation &amp; Collaboration Studio</h2>
+
+      <div class="office">
+        <h2 class="office-title">Main Offices</h2>
+
+        <table>
+          <tbody>
+            <tr>
+              <td style="width: 60%">
+                Kao Innovation &amp; Collaboration Studio
+              </td>
+              <td>G166 Zeanah Engineering Complex</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 class="office-title">Staff</h2>
+
+        <table>
+          <tbody>
+            <tr>
+              <td>Keith Stanfill</td>
+              <td>
+                Edwards Assistant Dean and Director of Integrated Engineering
+                Design
+              </td>
+              <td>G178A Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td>Michael Allen</td>
+              <td>First-Year Design Support</td>
+              <td>G163 Zeanah Engineering Complex</td>
+            </tr>
+
+            <tr>
+              <td>Jeff Foote</td>
+              <td>Assistant Professor of Practice</td>
+              <td>G167 Zeanah Engineering Complex</td>
+            </tr>
+
+            <tr>
+              <td>Terri Williams</td>
+              <td>ICS Administrative Associate II</td>
+              <td></td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <h2 class="office-title">Maker Spaces</h2>
+
+        <table>
+          <tbody>
+            <tr>
+              <td style="width: 60%">Chemical Wet Lab</td>
+              <td>G173 Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Electronics Lab</td>
+              <td>M168 Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">First-Year Design</td>
+              <td>G158 Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Kao ICS</td>
+              <td>G168 Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Metal Shop</td>
+              <td>G169 Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Paint Booth</td>
+              <td>G174A Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Visualization Lab</td>
+              <td>M167 Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Waterjet</td>
+              <td>G171 Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Welding</td>
+              <td>G169A Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Wood Shop</td>
+              <td>G161 Zeanah Engineering Complex</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 class="office-title">Collaboration Spaces</h2>
+
+        <table>
+          <tbody>
+            <tr>
+              <td style="width: 60%">Collaboration Space</td>
+              <td>G100D Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Collaboration Space</td>
+              <td>M171 Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Innovation 1 Conference Room</td>
+              <td>G177 Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Innovation 2 Conference Room</td>
+              <td>M169 Zeanah Engineering Complex</td>
+            </tr>
+            <tr>
+              <td style="width: 60%">Innovation 3 Conference Room</td>
+              <td>M172 Zeanah Engineering Complex</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="menu-open">
+        Maps
+        <button class="hamburger hamburger--3DY" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+      <div class="menu-container">
+        <div id="scene">
+          <div id="left-zone">
+            <ul class="list">
+              <li class="item">
+                <input
+                  type="radio"
+                  id="ground_floor"
+                  name="basic_carousel"
+                  checked
+                />
+                <label class="label_ground_floor" for="ground_floor"
+                  >Ground Floor</label
+                >
+                <div class="content content_ground_floor">
+                  <span class="picto"></span>
+                  <h1>Ground Floor</h1>
+                  <img src="images/Ground-Floor.png" width="100%" />
+                </div>
+              </li>
+              <li class="item">
+                <input type="radio" id="first_floor" name="basic_carousel" />
+                <label class="label_first_floor" for="first_floor"
+                  >First Floor</label
+                >
+                <div class="content content_first_floor">
+                  <span class="picto"></span>
+                  <h1>First Floor</h1>
+                  <img src="images/First-Floor.png" width="100%" />
+                </div>
+              </li>
+              <li class="item">
+                <input type="radio" id="second_floor" name="basic_carousel" />
+                <label class="label_second_floor" for="second_floor"
+                  >Second Floor</label
+                >
+                <div class="content content_second_floor">
+                  <span class="picto"></span>
+                  <h1>Second Floor</h1>
+                  <img src="images/Second-Floor.png" width="100%" />
+                </div>
+              </li>
+              <li class="item">
+                <input type="radio" id="third_floor" name="basic_carousel" />
+                <label class="label_third_floor" for="third_floor"
+                  >Third Floor</label
+                >
+                <div class="content content_third_floor">
+                  <span class="picto"></span>
+                  <h1>Third Floor</h1>
+                  <img src="images/Third-Floor.png" width="100%   " />
+                </div>
+              </li>
+              <li class="item">
+                <input type="radio" id="fourth_floor" name="basic_carousel" />
+                <label class="label_fourth_floor" for="fourth_floor"
+                  >Fourth Floor</label
+                >
+                <div class="content content_fourth_floor">
+                  <span class="picto"></span>
+                  <h1>Fourth Floor</h1>
+                  <img src="images/Fourth-Floor.png" width="100%" />
+                </div>
+              </li>
+              <li class="item">
+                <input type="radio" id="fifth_floor" name="basic_carousel" />
+                <label class="label_fifth_floor" for="fifth_floor"
+                  >Fifth Floor</label
+                >
+                <div class="content content_fifth_floor">
+                  <span class="picto"></span>
+                  <h1>Fifth Floor</h1>
+                  <img src="images/Fifth-Floor.png" width="100%" />
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="middle-border"></div>
+          <div id="right-zone"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
